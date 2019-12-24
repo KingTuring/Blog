@@ -15,4 +15,4 @@ QQ:285242733
 Deep Learning,Video Coding.
 
 ### learning Sharing
-[支持向量机](https://github.com/KingTuring/Blog/edit/master/SVM_learning.md).
+[支持向量机](https://github.com/KingTuring/Blog/edit/master/Sharing_Learning/SVM_learning.md).
