@@ -1,5 +1,5 @@
 ## Welcome to Dujin's Homepage
-![My photo](./Images/homepage/me.jpg])
+![My photo](./Images/homepage/me.jpg)
 
 Now i'm a senior student in JLU.
 And i will begin my postgraduate study in USTC.
