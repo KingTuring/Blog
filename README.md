@@ -19,3 +19,12 @@ Deep Learning,Video Coding.
 
 ### learning Sharing
 [支持向量机](./Sharing_Learning/SVM_learning.md).
+
+### Books Report
+
+### Movies Report
+
+### Travels Report
+
+
+
