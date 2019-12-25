@@ -2,32 +2,39 @@
 
 
 ### libsvm 在Python下的安装步骤
-1.在![Libsvm](https://www.csie.ntu.edu.tw/~cjlin/libsvm/)下载Libsvm压缩包，解压在合适位置
+1.在[Libsvm](https://www.csie.ntu.edu.tw/~cjlin/libsvm/)下载Libsvm压缩包，解压在合适位置
 
 2.确定本机Python的版本
 
 打开Python ILDE，查看版本
+
     import sys
     sys.version
 
 3.1如果版本为32位
 
-那么将*libsvm-3.24\libsvm-3.24\windows*中的**libsvm.dll**拷贝到*C:\Windows\System32*中
+那么将*libsvm-3.24\libsvm-3.24\windows*中的*libsvm.dll*拷贝到*C:\Windows\System32*中
 
 3.2如果版本为64位
 
-那么我们需要首先编译64位的动态链接库**libsvm.dll**文件的动态,首先打开**Visual studio**的*Conmmand prompt*，*cd*到*Libsvm*文件，生成动态链接库后，将生成的*libsvm.dll*文件拷贝到*C:\Windows\System32*中
+那么我们需要首先编译64位的动态链接库*libsvm.dll*文件的动态,首先打开*Visual studio*的*Conmmand prompt*，*cd*到*Libsvm*文件，生成动态链接库后，将生成的*libsvm.dll*文件拷贝到*C:\Windows\System32*中
+
     cd "E:\libsvm-3.24"
     nmake -f Makefile.win clean all
+
 如果成功会返回消息说，已经成功安装了*windows/libsvm.dll*
 
 4.测试
-    //导入库
+//导入库
+
     import os
     from svmutil import *
     os.chdir('E:\libsvm-3.24\python')
-    //使用svm
+
+//使用svm
+
     from y,x=svm_read_problem('../heart_scale')
     m=svm_train(y[:200,x[:200],'-c 4'])
     p_label,p_acc,p_val=svm_predict(y[200:],x[200:],m) 
+
 
