@@ -2,7 +2,7 @@
 
 
 ### libsvm 在Python下的安装步骤
-- 在[Libsvm](https://www.csie.ntu.edu.tw/~cjlin/libsvm/)下载Libsvm压缩包，解压在合适位置
+* 在[Libsvm](https://www.csie.ntu.edu.tw/~cjlin/libsvm/)下载Libsvm压缩包，解压在合适位置
 
 - 确定本机Python的版本
 
