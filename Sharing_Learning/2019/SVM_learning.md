@@ -49,5 +49,9 @@
     p_label,p_acc,p_val=svm_predict(y[200:],x[200:],m)
     ```
 
+### 参考文献
+[SVM （一）Libsvm 在Python下的安装和使用](https://blog.csdn.net/sinat_32362701/article/details/49490193)
+
+
 
 
