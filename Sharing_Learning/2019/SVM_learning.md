@@ -2,16 +2,16 @@
 
 
 ### libsvm 在Python下的安装步骤
-* 在[Libsvm](https://www.csie.ntu.edu.tw/~cjlin/libsvm/)下载Libsvm压缩包，解压在合适位置
+1. 在[Libsvm](https://www.csie.ntu.edu.tw/~cjlin/libsvm/)下载Libsvm压缩包，解压在合适位置
 
-1. 确定本机Python的版本
+2. 确定本机Python的版本
 
 打开Python ILDE，查看版本
 
     import sys
     sys.version
 
-2. 导入执行文件到*C:\Windows\System32*中
+3. 导入执行文件到*C:\Windows\System32*中
 
 - 如果版本为32位
 
@@ -26,13 +26,13 @@
 
 如果成功会返回消息说，已经成功安装了*windows/libsvm.dll*
 
-3. 测试
+4. 测试
 
     import os
     from svmutil import *
     os.chdir('E:\libsvm-3.24\python')
 
-4. 使用svm
+5. 使用svm
 
     from y,x=svm_read_problem('../heart_scale')
     m=svm_train(y[:200,x[:200],'-c 4'])
