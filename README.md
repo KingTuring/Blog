@@ -31,6 +31,10 @@ Deep Learning,Video Coding.
 
 ### Travels Report
 
+### Coding Problem Review
+[Python](./Coding_Problem/Python.md)
+
+
 ### Annual Plan
 [2020](./scheme/2020.md)
 
