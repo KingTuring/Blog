@@ -31,5 +31,8 @@ Deep Learning,Video Coding.
 
 ### Travels Report
 
+### Annual Plan
+[2020](./scheme/2020.md)
+
 
 
