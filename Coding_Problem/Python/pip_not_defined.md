@@ -22,5 +22,5 @@ pip install matplotlib
 
 * 参考资料
 
-[python pip NameError：name 'pip' is not defined](https://blog.csdn.net/weixin_33724059/article/details/86004694)
-[NameError: name 'pip' is not defined 使用pip时报错](https://blog.csdn.net/qq_41800366/article/details/86066496)
+1. [python pip NameError：name 'pip' is not defined](https://blog.csdn.net/weixin_33724059/article/details/86004694)
+1. [NameError: name 'pip' is not defined 使用pip时报错](https://blog.csdn.net/qq_41800366/article/details/86066496)
