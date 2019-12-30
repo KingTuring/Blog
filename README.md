@@ -21,6 +21,9 @@ Deep Learning,Video Coding.
 ### learning Sharing
 [支持向量机](./Sharing_Learning/2019/SVM_learning.md).
 
+### Learning Review
+[Pattern Recognition](./Learning_Review/Pattern Recognition.md)
+
 ### Learning Resourse
 
 ### Data Sets
