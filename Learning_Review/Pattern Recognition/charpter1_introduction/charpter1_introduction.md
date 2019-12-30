@@ -1,0 +1,11 @@
+# Introduction
+
+主要是讲述模式识别的背景和相关概念
+
+## 章节内容分配
+
+1. [概论](./charpter1_introduction/1_1Introduction.md)
+1. 特征矢量和特征空间
+1. 随机矢量的描述
+1. 正态分布
+
