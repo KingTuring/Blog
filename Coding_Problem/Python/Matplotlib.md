@@ -15,6 +15,23 @@ plt.plot(x, y,'b',linewidth=2,linestyle='-') #实线
 plt.show()
 ```
 
+单条线画法：plot([x], y, [fmt], data=None, **kwargs)
+* []代表参数为可选参数，x:横坐标，y：纵坐标，fmt：基本属性字符串
+* 形式：fmt = '[color][marker][line]'（color：颜色，marker：点型，linestyle：线型）当属性用的是全名就不可以用fmt参数来组合，应该用关键字参数对单个属性赋值
+
+举例：
+1. 
+ ```js
+ plot(x, y, 'bo-')  # 蓝色圆点实线
+ ```
+
+1. 
+ ```js
+ plot(x,y2,color='green', marker='o', linestyle='dashed', linewidth=1,markersize=6)
+
+ plot(x,y3,color='#900302',marker='+',linestyle='-')    
+ ```
+
 ### 函数图
 
 ```js
@@ -130,4 +147,67 @@ ax.plot_surface(X, Y, Z, rstride=1, cstride=1, cmap=plt.get_cmap('rainbow'))
 ax.contour(X,Y,Z,zdim = 'z',offset=-2,cmp = "rainbow")
 ax.set_zlim(-2,2)
 plt.show()
+```
+
+### color参见参数
+
+```js
+=============    ===============================
+    character        color
+    =============    ===============================
+    ``'b'``          blue 蓝
+    ``'g'``          green 绿
+    ``'r'``          red 红
+    ``'c'``          cyan 蓝绿
+    ``'m'``          magenta 洋红
+    ``'y'``          yellow 黄
+    ``'k'``          black 黑
+    ``'w'``          white 白
+    =============    ==============================
+```
+
+### Marker常见参数
+
+```js
+
+=============    ===============================
+    character        description
+    =============    ===============================
+    ``'.'``          point marker
+    ``','``          pixel marker
+    ``'o'``          circle marker
+    ``'v'``          triangle_down marker
+    ``'^'``          triangle_up marker
+    ``'<'``          triangle_left marker
+    ``'>'``          triangle_right marker
+    ``'1'``          tri_down marker
+    ``'2'``          tri_up marker
+    ``'3'``          tri_left marker
+    ``'4'``          tri_right marker
+    ``'s'``          square marker
+    ``'p'``          pentagon marker
+    ``'*'``          star marker
+    ``'h'``          hexagon1 marker
+    ``'H'``          hexagon2 marker
+    ``'+'``          plus marker
+    ``'x'``          x marker
+    ``'D'``          diamond marker
+    ``'d'``          thin_diamond marker
+    ``'|'``          vline marker
+    ``'_'``          hline marker
+    =============    ===============================
+```
+
+### linstylr常见参数
+
+```js
+=============    ===============================
+    character        description
+    =============    ===============================
+    ``'-'``          solid line style 实线
+    ``'--'``         dashed line style 虚线
+    ``'-.'``         dash-dot line style 点画线
+    ``':'``          dotted line style 点线
+    =============    ===============================
+
 ```
